@@ -1,0 +1,66 @@
+<?php
+// C3. Partners, /partners/
+return [
+    'en' => [
+        'name' => 'Partners',
+        'title' => 'Technology Partners: SAP, Odoo, Huawei | DWP Arabia',
+        'meta' => 'DWP Arabia is an SAP Partner for SAP Business One in Saudi Arabia, an Odoo partner and a Huawei partner.',
+        'h1' => 'Our Technology Partners',
+        'sections' => [
+            ['type' => 'hero', 'image' => ['src' => 'img/gen/partners-handshake.webp', 'alt' => 'Business partners shaking hands after a meeting in Riyadh', 'w' => 1600, 'h' => 1067],
+                'sub' => 'We work with leading enterprise platforms to deliver integrated, secure, and future ready solutions.',
+                'buttons' => [['Book a Free Demo', '/book-a-demo/'], ['Contact Us', '/contact/']]],
+            ['type' => 'sap_partner'],
+            ['type' => 'cards',
+                'h2' => 'Other technology partners',
+                'intro' => 'Alongside SAP, we work with these partners when a project calls for them.',
+                'bg' => 'muted',
+                'cols' => 2,
+                'items' => [
+                    ['image' => ['src' => 'img/badges/odoo-silver-partner.webp', 'alt' => 'Odoo Silver Partner', 'w' => 343, 'h' => 300], 'badge' => 'Odoo Silver Partner', 'title' => 'Odoo', 'text' => 'Odoo partner for companies that need a flexible, cost-effective ERP.', 'href' => '/erp/odoo/'],
+                    ['image' => ['src' => 'img/badges/huawei-partner.webp', 'alt' => 'Huawei Enterprise Partner, Authorized', 'w' => 309, 'h' => 300], 'badge' => 'Huawei Enterprise Partner', 'title' => 'Huawei', 'text' => 'Authorized Huawei Enterprise Partner for cloud and infrastructure. [CONFIRM: partner scope]'],
+                ]],
+            ['type' => 'logos',
+                'h2' => 'Technology & Platform Ecosystem',
+                'intro' => '[CONFIRM: which of these are formal partnerships]',
+                'items' => [
+                    ['name' => 'Microsoft', 'src' => 'img/partners/microsoft.webp'],
+                    ['name' => 'Cisco', 'src' => 'img/partners/cisco.webp'],
+                    ['name' => 'Schneider Electric', 'src' => 'img/partners/schneider-electric.webp'],
+                    ['name' => 'Fortinet', 'src' => 'img/partners/fortinet.webp'],
+                ]],
+            ['type' => 'cta_band'],
+        ],
+    ],
+    'ar' => [
+        'name' => 'شركاؤنا',
+        'title' => 'شركاؤنا التقنيون: SAP وOdoo وHuawei | DWP Arabia',
+        'meta' => 'DWP Arabia شريك SAP لنظام SAP Business One في السعودية، وشريك Odoo وHuawei.',
+        'h1' => 'شركاؤنا التقنيون',
+        'sections' => [
+            ['type' => 'hero', 'image' => ['src' => 'img/gen/partners-handshake.webp', 'alt' => 'شريكا أعمال يتصافحان بعد اجتماع في الرياض', 'w' => 1600, 'h' => 1067],
+                'sub' => 'نتعاون مع أبرز منصات الأعمال العالمية لتقديم حلول متكاملة وآمنة وجاهزة لمواكبة متطلبات المستقبل',
+                'buttons' => [['احجز عرضاً مجانياً', '/book-a-demo/'], ['تواصل معنا', '/contact/']]],
+            ['type' => 'sap_partner'],
+            ['type' => 'cards',
+                'h2' => 'شركاء تقنيون آخرون',
+                'intro' => 'إلى جانب SAP، نعمل مع هؤلاء الشركاء عندما يتطلب المشروع ذلك.',
+                'bg' => 'muted',
+                'cols' => 2,
+                'items' => [
+                    ['image' => ['src' => 'img/badges/odoo-silver-partner.webp', 'alt' => 'شريك Odoo الفضي', 'w' => 343, 'h' => 300], 'badge' => 'شريك Odoo الفضي', 'title' => 'Odoo', 'text' => 'شريك Odoo للشركات التي تحتاج نظام ERP مرناً وبتكلفة مناسبة.', 'href' => '/erp/odoo/'],
+                    ['image' => ['src' => 'img/badges/huawei-partner.webp', 'alt' => 'شريك Huawei المعتمد للمؤسسات', 'w' => 309, 'h' => 300], 'badge' => 'شريك Huawei للمؤسسات', 'title' => 'Huawei', 'text' => '[AR-REVIEW]شريك Huawei معتمد للمؤسسات في الحوسبة السحابية والبنية التحتية.[/AR-REVIEW] [CONFIRM: partner scope]'],
+                ]],
+            ['type' => 'logos',
+                'h2' => 'منظومة التقنيات والمنصات',
+                'intro' => '[CONFIRM: which of these are formal partnerships]',
+                'items' => [
+                    ['name' => 'Microsoft', 'src' => 'img/partners/microsoft.webp'],
+                    ['name' => 'Cisco', 'src' => 'img/partners/cisco.webp'],
+                    ['name' => 'Schneider Electric', 'src' => 'img/partners/schneider-electric.webp'],
+                    ['name' => 'Fortinet', 'src' => 'img/partners/fortinet.webp'],
+                ]],
+            ['type' => 'cta_band'],
+        ],
+    ],
+];

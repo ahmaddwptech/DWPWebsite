@@ -1,0 +1,78 @@
+<?php
+// C14. Pricing, /sap-business-one/pricing/  (no price list, rule A7)
+return [
+    'en' => [
+        'name' => 'Pricing',
+        'title' => 'SAP Business One Price in Saudi Arabia | Get a Quote',
+        'meta' => 'What drives SAP Business One cost: users, licence type, hosting and implementation scope. Get a tailored quote.',
+        'h1' => 'How Much Does SAP Business One Cost?',
+        'sections' => [
+            ['type' => 'hero', 'image' => ['src' => 'img/gen/sap-pricing.webp', 'alt' => 'Business owner and consultant reviewing a project proposal together', 'w' => 1600, 'h' => 1067],
+                'sub' => "There's no single price. The cost depends on a few clear factors. Here's what they are, so you can budget with confidence.",
+                'buttons' => [['Get your tailored quote', '#lets-talk'], ['Free Assessment', '/sap-business-one/free-assessment/']]],
+            ['type' => 'cards',
+                'h2' => 'The 5 cost drivers',
+                'cols' => 3,
+                'variant' => 'numbered',
+                'items' => [
+                    ['title' => 'Number and type of users', 'text' => 'How many people use the system and which user types they need (e.g. Professional, Limited, Starter).'],
+                    ['title' => 'Database', 'text' => 'SAP HANA or Microsoft SQL Server.'],
+                    ['title' => 'Hosting', 'text' => 'Cloud or on-premise, each has different infrastructure and running costs.'],
+                    ['title' => 'Implementation scope', 'text' => 'The modules, reports and integrations your business needs.'],
+                    ['title' => 'Add-ons and annual support', 'text' => 'Industry or localisation add-ons, plus ongoing support after go-live.'],
+                ]],
+            ['type' => 'text',
+                'h2' => 'Subscription vs perpetual',
+                'variant' => 'muted',
+                'body' => [
+                    'With a subscription you pay a recurring fee per user, which keeps the starting cost lower and is common for cloud hosting. With a perpetual licence you pay once upfront, plus an annual maintenance fee. The right option depends on your cash flow, hosting choice and growth plans. [CONFIRM: subscription and perpetual options available to DWP customers]',
+                ]],
+            ['type' => 'lead_form', 'variant' => 'quote',
+                'heading' => 'Get your tailored quote',
+                'sub' => 'Tell us about your company and number of users. We reply within one business day.'],
+            ['type' => 'faq', 'items' => [
+                ['Is there a monthly option?', 'Subscription options with recurring payments may be available depending on hosting and licence type. We explain the options that fit your company in your quote.'],
+                ["What's included in implementation?", 'Process workshops, system setup, data migration, reports, training in Arabic and English, go-live support and documentation. The exact scope is agreed in writing before the project starts.'],
+                ['Are there hidden costs?', 'No. Your quote lists users, hosting, implementation, add-ons and annual support separately, so you see the full cost before you decide.'],
+            ]],
+            ['type' => 'cta_band'],
+        ],
+    ],
+    'ar' => [
+        'name' => 'الأسعار',
+        'title' => 'سعر نظام SAP Business One في السعودية',
+        'meta' => 'ما الذي يحدد تكلفة SAP Business One: عدد المستخدمين ونوع الترخيص والاستضافة ونطاق التطبيق. احصل على عرض سعر.',
+        'h1' => 'كم تكلفة نظام SAP Business One؟',
+        'sections' => [
+            ['type' => 'hero', 'image' => ['src' => 'img/gen/sap-pricing.webp', 'alt' => 'صاحب شركة ومستشار يراجعان عرض المشروع معاً', 'w' => 1600, 'h' => 1067],
+                'sub' => 'لا يوجد سعر واحد، فالتكلفة تعتمد على عوامل واضحة. إليك هذه العوامل لتخطط لميزانيتك بثقة.',
+                'buttons' => [['[AR-REVIEW]احصل على عرض سعر مخصص[/AR-REVIEW]', '#lets-talk'], ['تقييم مجاني', '/sap-business-one/free-assessment/']]],
+            ['type' => 'cards',
+                'h2' => '[AR-REVIEW]العوامل الخمسة المحددة للتكلفة[/AR-REVIEW]',
+                'cols' => 3,
+                'variant' => 'numbered',
+                'items' => [
+                    ['title' => 'عدد المستخدمين ونوعهم', 'text' => '[AR-REVIEW]عدد من يستخدمون النظام ونوع المستخدم الذي يحتاجه كل منهم (مثل Professional وLimited وStarter).[/AR-REVIEW]'],
+                    ['title' => 'قاعدة البيانات', 'text' => '[AR-REVIEW]SAP HANA أو Microsoft SQL Server.[/AR-REVIEW]'],
+                    ['title' => 'الاستضافة السحابية أو الداخلية', 'text' => '[AR-REVIEW]لكل خيار تكاليف مختلفة للبنية التحتية والتشغيل.[/AR-REVIEW]'],
+                    ['title' => 'نطاق التطبيق', 'text' => '[AR-REVIEW]الوحدات والتقارير وعمليات الربط التي تحتاجها أعمالك.[/AR-REVIEW]'],
+                    ['title' => 'الإضافات والدعم السنوي', 'text' => '[AR-REVIEW]إضافات القطاع أو التوطين، إلى جانب الدعم المستمر بعد الإطلاق.[/AR-REVIEW]'],
+                ]],
+            ['type' => 'text',
+                'h2' => '[AR-REVIEW]الاشتراك أم الترخيص الدائم[/AR-REVIEW]',
+                'variant' => 'muted',
+                'body' => [
+                    '[AR-REVIEW]في الاشتراك تدفع رسوماً دورية لكل مستخدم، مما يخفض التكلفة الأولية وهو شائع مع الاستضافة السحابية. أما الترخيص الدائم فتدفعه مرة واحدة مقدماً مع رسوم صيانة سنوية. ويعتمد الخيار الأنسب على تدفقك النقدي ونوع الاستضافة وخطط النمو.[/AR-REVIEW] [CONFIRM: subscription and perpetual options available to DWP customers]',
+                ]],
+            ['type' => 'lead_form', 'variant' => 'quote',
+                'heading' => '[AR-REVIEW]احصل على عرض سعر مخصص[/AR-REVIEW]',
+                'sub' => '[AR-REVIEW]أخبرنا عن شركتك وعدد المستخدمين وسنرد عليك خلال يوم عمل واحد.[/AR-REVIEW]'],
+            ['type' => 'faq', 'items' => [
+                ['[AR-REVIEW]هل يوجد خيار دفع شهري؟[/AR-REVIEW]', '[AR-REVIEW]قد تتوفر خيارات اشتراك بدفعات دورية حسب نوع الاستضافة والترخيص، ونوضح لك الخيارات المناسبة لشركتك في عرض السعر.[/AR-REVIEW]'],
+                ['[AR-REVIEW]ماذا يشمل التطبيق؟[/AR-REVIEW]', '[AR-REVIEW]ورش عمل لفهم العمليات، وإعداد النظام، ونقل البيانات، والتقارير، والتدريب بالعربية والإنجليزية، ودعم الإطلاق، والتوثيق. ويُتفق على النطاق كتابياً قبل بدء المشروع.[/AR-REVIEW]'],
+                ['[AR-REVIEW]هل توجد تكاليف خفية؟[/AR-REVIEW]', '[AR-REVIEW]لا، يوضح عرض السعر المستخدمين والاستضافة والتطبيق والإضافات والدعم السنوي بشكل منفصل، فترى التكلفة كاملة قبل أن تقرر.[/AR-REVIEW]'],
+            ]],
+            ['type' => 'cta_band'],
+        ],
+    ],
+];

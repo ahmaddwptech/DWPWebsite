@@ -1,0 +1,68 @@
+<?php
+// C21. Document Automation, /ai/document-automation/
+return [
+    'en' => [
+        'name' => 'Document Automation',
+        'title' => 'AI Invoice & Document Automation | DWP Arabia',
+        'meta' => 'Read supplier invoices and documents with AI and post them to SAP Business One, less typing, fewer errors.',
+        'h1' => 'AI Document Automation into Your ERP',
+        'sections' => [
+            ['type' => 'hero', 'image' => ['src' => 'img/gen/document-automation.webp', 'alt' => 'Accounts clerk capturing a supplier invoice with his phone', 'w' => 1600, 'h' => 1067],
+                'sub' => 'Read supplier invoices and documents with AI and post them to SAP Business One, less typing, fewer errors.',
+                'buttons' => [['Book a Free Demo', '/book-a-demo/'], ['Talk to an AI expert', '#lets-talk']]],
+            ['type' => 'cards',
+                'h2' => 'Documents we handle',
+                'cols' => 4,
+                'items' => [
+                    ['icon' => 'receipt', 'title' => 'Supplier invoices in Arabic and English'],
+                    ['icon' => 'box', 'title' => 'Delivery notes'],
+                    ['icon' => 'cart', 'title' => 'Purchase orders'],
+                    ['icon' => 'doc', 'title' => 'Expense receipts'],
+                ]],
+            ['type' => 'steps',
+                'h2' => 'How it works',
+                'bg' => 'muted',
+                'items' => [
+                    ['Upload or email', 'Send documents the way you already receive them.'],
+                    ['AI extracts', 'Supplier, dates, lines, amounts and VAT are read automatically.'],
+                    ['Staff reviews', 'Your team checks and corrects in one screen.'],
+                    ['Draft in SAP Business One', 'A draft document is created, ready to post.'],
+                ],
+                'link' => ['See AI for SAP Business One', '/ai/ai-for-sap-business-one/']],
+            ['type' => 'lead_form', 'interest' => 'ai'],
+            ['type' => 'cta_band'],
+        ],
+    ],
+    'ar' => [
+        'name' => 'أتمتة المستندات',
+        'title' => 'أتمتة الفواتير والمستندات بالذكاء الاصطناعي',
+        'meta' => 'اقرأ فواتير الموردين والمستندات بالذكاء الاصطناعي ورحّلها إلى SAP Business One، إدخال أقل وأخطاء أقل.',
+        'h1' => 'أتمتة المستندات بالذكاء الاصطناعي داخل نظامك',
+        'sections' => [
+            ['type' => 'hero', 'image' => ['src' => 'img/gen/document-automation.webp', 'alt' => 'موظف حسابات يصوّر فاتورة مورد بهاتفه', 'w' => 1600, 'h' => 1067],
+                'sub' => 'اقرأ فواتير الموردين والمستندات بالذكاء الاصطناعي ورحّلها إلى SAP Business One، إدخال أقل وأخطاء أقل.',
+                'buttons' => [['احجز عرضاً مجانياً', '/book-a-demo/'], ['[AR-REVIEW]تحدث مع خبير ذكاء اصطناعي[/AR-REVIEW]', '#lets-talk']]],
+            ['type' => 'cards',
+                'h2' => '[AR-REVIEW]المستندات التي نعالجها[/AR-REVIEW]',
+                'cols' => 4,
+                'items' => [
+                    ['icon' => 'receipt', 'title' => 'فواتير الموردين'],
+                    ['icon' => 'box', 'title' => 'مذكرات التسليم'],
+                    ['icon' => 'cart', 'title' => 'أوامر الشراء'],
+                    ['icon' => 'doc', 'title' => 'إيصالات المصروفات'],
+                ]],
+            ['type' => 'steps',
+                'h2' => '[AR-REVIEW]كيف يعمل[/AR-REVIEW]',
+                'bg' => 'muted',
+                'items' => [
+                    ['[AR-REVIEW]الرفع أو البريد الإلكتروني[/AR-REVIEW]', '[AR-REVIEW]أرسل المستندات بالطريقة التي تستلمها بها اليوم.[/AR-REVIEW]'],
+                    ['[AR-REVIEW]الاستخراج بالذكاء الاصطناعي[/AR-REVIEW]', '[AR-REVIEW]قراءة المورد والتواريخ والبنود والمبالغ والضريبة تلقائياً.[/AR-REVIEW]'],
+                    ['[AR-REVIEW]مراجعة الموظف[/AR-REVIEW]', '[AR-REVIEW]يراجع فريقك ويصحح في شاشة واحدة.[/AR-REVIEW]'],
+                    ['[AR-REVIEW]مسودة في SAP Business One[/AR-REVIEW]', '[AR-REVIEW]إنشاء مستند مسودة جاهز للترحيل.[/AR-REVIEW]'],
+                ],
+                'link' => ['[AR-REVIEW]اطلع على الذكاء الاصطناعي مع SAP Business One[/AR-REVIEW]', '/ai/ai-for-sap-business-one/']],
+            ['type' => 'lead_form', 'interest' => 'ai'],
+            ['type' => 'cta_band'],
+        ],
+    ],
+];

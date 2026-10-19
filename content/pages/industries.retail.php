@@ -1,0 +1,88 @@
+<?php
+// C35. Retail, /industries/retail/
+return [
+    'en' => [
+        'name' => 'Retail',
+        'title' => 'ERP for Retail in Saudi Arabia | DWP Arabia',
+        'meta' => 'Connect branches, POS and e-commerce to one ERP with live stock and ZATCA-ready invoicing.',
+        'h1' => 'ERP for Retail',
+        'sections' => [
+            ['type' => 'hero', 'form' => 'short', 'bg_image' => 'img/gen/industry-retail.webp',
+                'sub' => 'Connect every branch, POS and online store to one ERP, with live stock and ZATCA-ready invoicing.',
+                'buttons' => [['Book a Demo', '/book-a-demo/'], ['Free Assessment', '/sap-business-one/free-assessment/']]],
+            ['type' => 'cards', 'h2' => 'Sound familiar?', 'cols' => 4, 'bg' => 'muted',
+                'items' => [
+                    ['icon' => 'box', 'title' => 'Hidden branch stock', 'text' => 'Branch stock is not visible.'],
+                    ['icon' => 'receipt', 'title' => "POS doesn't match", 'text' => "POS and accounts don't match."],
+                    ['icon' => 'coins', 'title' => 'Promotions out of control', 'text' => 'Promotions are hard to control.'],
+                    ['icon' => 'cart', 'title' => 'Manual online orders', 'text' => 'E-commerce orders are handled manually.'],
+                ]],
+            ['type' => 'cards', 'h2' => 'How our ERP solves it', 'cols' => 3,
+                'items' => [
+                    ['icon' => 'box', 'title' => 'Multi-branch stock', 'text' => 'Live stock for every branch and warehouse.'],
+                    ['icon' => 'receipt', 'title' => 'POS integration', 'text' => 'Sales post automatically to stock and accounts. [CONFIRM: POS]'],
+                    ['icon' => 'cart', 'title' => 'E-commerce integration', 'text' => 'Orders from e.g. Salla, Zid or Shopify flow straight into your ERP. [CONFIRM: e-commerce platforms]'],
+                    ['icon' => 'coins', 'title' => 'Promotions', 'text' => 'Central control of promotions and discounts.'],
+                    ['icon' => 'gear', 'title' => 'Replenishment', 'text' => 'Refill branches based on sales and minimum stock.'],
+                    ['icon' => 'chart', 'title' => 'Daily sales dashboards', 'text' => 'Sales by branch, item and day.'],
+                ]],
+            ['type' => 'cards', 'h2' => 'AI add-on for retailers', 'cols' => 2,
+                'items' => [
+                    ['icon' => 'spark', 'title' => 'Sales forecasting by branch and season', 'text' => 'Plan stock for each branch, including Ramadan and seasonal peaks.', 'href' => '/ai/predictive-analytics/'],
+                ]],
+            ['type' => 'cta_box', 'h2' => 'ZATCA Phase 2 e-invoicing, built in',
+                'text' => 'Issue compliant e-invoices from your ERP with direct Fatoora integration.',
+                'button' => ['Check your ZATCA readiness →', '/sap-business-one/zatca-e-invoicing/']],
+            ['type' => 'case_studies'],
+            ['type' => 'faq', 'items' => [
+                ['Can we see stock in all branches at once?', 'Yes. The ERP shows live stock for every branch and warehouse in one place.'],
+                ['Can the ERP connect to our online store?', 'Yes. We connect e-commerce platforms so online orders, stock and invoices stay in sync.'],
+                ['Does it handle simplified invoices for retail customers?', 'Yes. Simplified tax invoices are issued and reported to ZATCA as part of Phase 2 integration.'],
+            ]],
+            ['type' => 'lead_form', 'heading' => 'Talk to an industry expert'],
+            ['type' => 'cta_band'],
+        ],
+    ],
+    'ar' => [
+        'name' => 'التجزئة',
+        'title' => 'نظام ERP لقطاع التجزئة',
+        'meta' => 'اربط الفروع ونقاط البيع والمتجر الإلكتروني بنظام واحد مع مخزون لحظي وفوترة متوافقة.',
+        'h1' => 'نظام ERP لقطاع التجزئة',
+        'sections' => [
+            ['type' => 'hero', 'form' => 'short', 'bg_image' => 'img/gen/industry-retail.webp',
+                'sub' => '[AR-REVIEW]اربط كل فرع ونقطة بيع ومتجر إلكتروني بنظام واحد، مع مخزون لحظي وفوترة متوافقة مع زاتكا.[/AR-REVIEW]',
+                'buttons' => [['احجز عرضاً توضيحياً', '/book-a-demo/'], ['تقييم مجاني', '/sap-business-one/free-assessment/']]],
+            ['type' => 'cards', 'h2' => '[AR-REVIEW]هل يبدو هذا مألوفاً؟[/AR-REVIEW]', 'cols' => 4, 'bg' => 'muted',
+                'items' => [
+                    ['icon' => 'box', 'title' => '[AR-REVIEW]مخزون الفروع[/AR-REVIEW]', 'text' => 'مخزون الفروع غير ظاهر.'],
+                    ['icon' => 'receipt', 'title' => '[AR-REVIEW]نقاط البيع والحسابات[/AR-REVIEW]', 'text' => 'عدم تطابق نقاط البيع مع الحسابات.'],
+                    ['icon' => 'coins', 'title' => '[AR-REVIEW]العروض الترويجية[/AR-REVIEW]', 'text' => 'صعوبة التحكم بالعروض.'],
+                    ['icon' => 'cart', 'title' => '[AR-REVIEW]الطلبات الإلكترونية[/AR-REVIEW]', 'text' => 'طلبات المتجر الإلكتروني يدوية.'],
+                ]],
+            ['type' => 'cards', 'h2' => '[AR-REVIEW]كيف يحل نظامنا ذلك[/AR-REVIEW]', 'cols' => 3,
+                'items' => [
+                    ['icon' => 'box', 'title' => '[AR-REVIEW]مخزون متعدد الفروع[/AR-REVIEW]', 'text' => '[AR-REVIEW]مخزون لحظي لكل فرع ومستودع.[/AR-REVIEW]'],
+                    ['icon' => 'receipt', 'title' => '[AR-REVIEW]الربط مع نقاط البيع[/AR-REVIEW]', 'text' => '[AR-REVIEW]تُرحَّل المبيعات تلقائياً إلى المخزون والحسابات.[/AR-REVIEW] [CONFIRM: POS]'],
+                    ['icon' => 'cart', 'title' => '[AR-REVIEW]الربط مع المتاجر الإلكترونية[/AR-REVIEW]', 'text' => '[AR-REVIEW]تنتقل الطلبات من منصات مثل سلة وزد وShopify مباشرة إلى نظامك.[/AR-REVIEW] [CONFIRM: e-commerce platforms]'],
+                    ['icon' => 'coins', 'title' => '[AR-REVIEW]العروض الترويجية[/AR-REVIEW]', 'text' => '[AR-REVIEW]تحكم مركزي في العروض والخصومات.[/AR-REVIEW]'],
+                    ['icon' => 'gear', 'title' => '[AR-REVIEW]إعادة التزويد[/AR-REVIEW]', 'text' => '[AR-REVIEW]تزويد الفروع حسب المبيعات والحد الأدنى للمخزون.[/AR-REVIEW]'],
+                    ['icon' => 'chart', 'title' => '[AR-REVIEW]لوحات المبيعات اليومية[/AR-REVIEW]', 'text' => '[AR-REVIEW]المبيعات حسب الفرع والصنف واليوم.[/AR-REVIEW]'],
+                ]],
+            ['type' => 'cards', 'h2' => '[AR-REVIEW]إضافة الذكاء الاصطناعي لقطاع التجزئة[/AR-REVIEW]', 'cols' => 2,
+                'items' => [
+                    ['icon' => 'spark', 'title' => '[AR-REVIEW]التنبؤ بالمبيعات حسب الفرع والموسم[/AR-REVIEW]', 'text' => '[AR-REVIEW]خطط مخزون كل فرع، بما في ذلك رمضان والمواسم.[/AR-REVIEW]', 'href' => '/ai/predictive-analytics/'],
+                ]],
+            ['type' => 'cta_box', 'h2' => 'الفوترة الإلكترونية المرحلة الثانية، جاهزة ضمن النظام',
+                'text' => 'اربط نظامك بمنصة فاتورة وأصدر فواتير إلكترونية متوافقة من اليوم الأول.',
+                'button' => ['تحقق من جاهزيتك لزاتكا ←', '/sap-business-one/zatca-e-invoicing/']],
+            ['type' => 'case_studies'],
+            ['type' => 'faq', 'items' => [
+                ['[AR-REVIEW]هل يمكننا رؤية مخزون جميع الفروع معاً؟[/AR-REVIEW]', '[AR-REVIEW]نعم، يعرض النظام المخزون اللحظي لكل فرع ومستودع في مكان واحد.[/AR-REVIEW]'],
+                ['[AR-REVIEW]هل يمكن ربط النظام بمتجرنا الإلكتروني؟[/AR-REVIEW]', '[AR-REVIEW]نعم، نربط منصات التجارة الإلكترونية لتبقى الطلبات والمخزون والفواتير متزامنة.[/AR-REVIEW]'],
+                ['[AR-REVIEW]هل يدعم الفواتير المبسطة لعملاء التجزئة؟[/AR-REVIEW]', '[AR-REVIEW]نعم، تُصدر الفواتير الضريبية المبسطة ويُبلَّغ عنها لهيئة الزكاة والضريبة والجمارك ضمن متطلبات المرحلة الثانية.[/AR-REVIEW]'],
+            ]],
+            ['type' => 'lead_form', 'heading' => '[AR-REVIEW]تحدث مع خبير في قطاعك[/AR-REVIEW]'],
+            ['type' => 'cta_band'],
+        ],
+    ],
+];

@@ -1,0 +1,76 @@
+<?php
+// C19. Predictive Analytics, /ai/predictive-analytics/
+return [
+    'en' => [
+        'name' => 'Predictive Analytics',
+        'title' => 'Sales & Demand Forecasting with AI | DWP Arabia',
+        'meta' => 'Forecast sales, stock and cash flow from your ERP history so you buy and plan with confidence.',
+        'h1' => 'AI Forecasting for Sales, Stock and Cash',
+        'sections' => [
+            ['type' => 'hero', 'image' => ['src' => 'img/gen/predictive-analytics.webp', 'alt' => 'Supply planner reviewing a demand chart in a warehouse office', 'w' => 1600, 'h' => 1067],
+                'sub' => 'Forecast sales, stock and cash flow from your ERP history so you buy and plan with confidence.',
+                'buttons' => [['Book a Free Demo', '/book-a-demo/'], ['Talk to an AI expert', '#lets-talk']]],
+            ['type' => 'cards',
+                'h2' => 'The problem: overstock and stock-outs',
+                'cols' => 2,
+                'items' => [
+                    ['icon' => 'box', 'title' => 'Overstock', 'text' => 'Cash tied up in items that sit in the warehouse.'],
+                    ['icon' => 'cart', 'title' => 'Stock-outs', 'text' => 'Lost sales when the items customers want run out.'],
+                ]],
+            ['type' => 'list',
+                'h2' => 'What we forecast',
+                'bg' => 'muted',
+                'items' => [
+                    'Sales by item and branch',
+                    'Reorder points',
+                    'Seasonality, including Ramadan and the seasons',
+                    'Cash-flow outlook',
+                ]],
+            ['type' => 'list',
+                'h2' => 'How it shows up',
+                'items' => [
+                    'Dashboards your team already uses',
+                    'A weekly email with the key forecasts and alerts',
+                ],
+                'link' => ['See AI for SAP Business One', '/ai/ai-for-sap-business-one/']],
+            ['type' => 'lead_form', 'interest' => 'ai'],
+            ['type' => 'cta_band'],
+        ],
+    ],
+    'ar' => [
+        'name' => 'التحليلات التنبؤية',
+        'title' => 'التنبؤ بالمبيعات والطلب بالذكاء الاصطناعي',
+        'meta' => 'تنبأ بالمبيعات والمخزون والتدفق النقدي من بيانات نظامك لتشتري وتخطط بثقة.',
+        'h1' => 'التنبؤ بالمبيعات والمخزون والنقد بالذكاء الاصطناعي',
+        'sections' => [
+            ['type' => 'hero', 'image' => ['src' => 'img/gen/predictive-analytics.webp', 'alt' => 'مخطط إمداد يراجع رسم الطلب في مكتب المستودع', 'w' => 1600, 'h' => 1067],
+                'sub' => 'تنبأ بالمبيعات والمخزون والتدفق النقدي من بيانات نظامك لتشتري وتخطط بثقة.',
+                'buttons' => [['احجز عرضاً مجانياً', '/book-a-demo/'], ['[AR-REVIEW]تحدث مع خبير ذكاء اصطناعي[/AR-REVIEW]', '#lets-talk']]],
+            ['type' => 'cards',
+                'h2' => '[AR-REVIEW]المشكلة: فائض المخزون ونفاده[/AR-REVIEW]',
+                'cols' => 2,
+                'items' => [
+                    ['icon' => 'box', 'title' => '[AR-REVIEW]فائض المخزون[/AR-REVIEW]', 'text' => '[AR-REVIEW]أموال مجمدة في أصناف راكدة في المستودع.[/AR-REVIEW]'],
+                    ['icon' => 'cart', 'title' => '[AR-REVIEW]نفاد المخزون[/AR-REVIEW]', 'text' => '[AR-REVIEW]مبيعات ضائعة عند نفاد الأصناف التي يطلبها العملاء.[/AR-REVIEW]'],
+                ]],
+            ['type' => 'list',
+                'h2' => '[AR-REVIEW]ما الذي نتنبأ به[/AR-REVIEW]',
+                'bg' => 'muted',
+                'items' => [
+                    'المبيعات حسب الصنف والفرع',
+                    'نقاط إعادة الطلب',
+                    'المواسم بما فيها رمضان',
+                    '[AR-REVIEW]توقعات التدفق النقدي[/AR-REVIEW]',
+                ]],
+            ['type' => 'list',
+                'h2' => '[AR-REVIEW]كيف تظهر النتائج[/AR-REVIEW]',
+                'items' => [
+                    '[AR-REVIEW]لوحات متابعة يستخدمها فريقك[/AR-REVIEW]',
+                    '[AR-REVIEW]بريد أسبوعي بأهم التوقعات والتنبيهات[/AR-REVIEW]',
+                ],
+                'link' => ['[AR-REVIEW]اطلع على الذكاء الاصطناعي مع SAP Business One[/AR-REVIEW]', '/ai/ai-for-sap-business-one/']],
+            ['type' => 'lead_form', 'interest' => 'ai'],
+            ['type' => 'cta_band'],
+        ],
+    ],
+];

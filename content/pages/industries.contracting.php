@@ -1,0 +1,86 @@
+<?php
+// C36. Contracting & Services, /industries/contracting/
+return [
+    'en' => [
+        'name' => 'Contracting & Services',
+        'title' => 'ERP for Contracting & Service Companies KSA | DWP Arabia',
+        'meta' => "Track every project's budget, cost and profit in one ERP, from tender to final invoice.",
+        'h1' => 'ERP for Contracting & Services',
+        'sections' => [
+            ['type' => 'hero', 'form' => 'short', 'bg_image' => 'img/gen/industry-contracting.webp',
+                'sub' => "Track every project's budget, cost and profit in one ERP, from tender to final invoice.",
+                'buttons' => [['Book a Demo', '/book-a-demo/'], ['Free Assessment', '/sap-business-one/free-assessment/']]],
+            ['type' => 'cards', 'h2' => 'Sound familiar?', 'cols' => 4, 'bg' => 'muted',
+                'items' => [
+                    ['icon' => 'chart', 'title' => 'Profit known too late', 'text' => 'Profit per project is unknown until the end.'],
+                    ['icon' => 'clock', 'title' => 'Late cost posting', 'text' => 'Costs are posted late.'],
+                    ['icon' => 'doc', 'title' => 'Billing in Excel', 'text' => 'Progress billing is done in Excel.'],
+                    ['icon' => 'briefcase', 'title' => 'Manual service contracts', 'text' => 'Service contracts are tracked manually.'],
+                ]],
+            ['type' => 'cards', 'h2' => 'How our ERP solves it', 'cols' => 3,
+                'items' => [
+                    ['icon' => 'coins', 'title' => 'Project costing and budgets', 'text' => 'Budget vs actual for every project, updated as costs are posted.'],
+                    ['icon' => 'cart', 'title' => 'Purchasing per project', 'text' => 'Every purchase is linked to its project.'],
+                    ['icon' => 'receipt', 'title' => 'Progress billing and retention', 'text' => 'Issue progress invoices and track retention. [CONFIRM: progress billing add-on]'],
+                    ['icon' => 'briefcase', 'title' => 'Service contracts and calls', 'text' => 'Manage contracts, service calls and SLAs.'],
+                    ['icon' => 'chart', 'title' => 'Project profitability reports', 'text' => 'See profit per project while it is still running.'],
+                ]],
+            ['type' => 'cards', 'h2' => 'AI add-on for contractors', 'cols' => 2,
+                'items' => [
+                    ['icon' => 'spark', 'title' => 'Cost-overrun alerts', 'text' => 'Get warned early when a project is heading over budget.', 'href' => '/ai/ai-for-sap-business-one/'],
+                ]],
+            ['type' => 'cta_box', 'h2' => 'ZATCA Phase 2 e-invoicing, built in',
+                'text' => 'Issue compliant e-invoices from your ERP with direct Fatoora integration.',
+                'button' => ['Check your ZATCA readiness →', '/sap-business-one/zatca-e-invoicing/']],
+            ['type' => 'case_studies'],
+            ['type' => 'faq', 'items' => [
+                ['Can we see the profit of each project before it ends?', 'Yes. Costs and revenue are posted to the project as they happen, so you see budget vs actual at any time.'],
+                ['Can the ERP handle progress billing?', 'Yes. Progress invoices and retention can be managed in the ERP, with an add-on where needed.'],
+                ['Does it manage service contracts?', 'Yes. You can manage service contracts, service calls and response times in the same system.'],
+            ]],
+            ['type' => 'lead_form', 'heading' => 'Talk to an industry expert'],
+            ['type' => 'cta_band'],
+        ],
+    ],
+    'ar' => [
+        'name' => 'المقاولات والخدمات',
+        'title' => 'ERP لشركات المقاولات والخدمات',
+        'meta' => 'تابع ميزانية وتكلفة وربح كل مشروع في نظام واحد، من المناقصة حتى الفاتورة النهائية.',
+        'h1' => 'نظام ERP للمقاولات والخدمات',
+        'sections' => [
+            ['type' => 'hero', 'form' => 'short', 'bg_image' => 'img/gen/industry-contracting.webp',
+                'sub' => 'تابع ميزانية وتكلفة وربح كل مشروع في نظام واحد، من المناقصة حتى الفاتورة النهائية.',
+                'buttons' => [['احجز عرضاً توضيحياً', '/book-a-demo/'], ['تقييم مجاني', '/sap-business-one/free-assessment/']]],
+            ['type' => 'cards', 'h2' => '[AR-REVIEW]هل يبدو هذا مألوفاً؟[/AR-REVIEW]', 'cols' => 4, 'bg' => 'muted',
+                'items' => [
+                    ['icon' => 'chart', 'title' => '[AR-REVIEW]ربح متأخر[/AR-REVIEW]', 'text' => 'ربح المشروع غير معروف حتى النهاية.'],
+                    ['icon' => 'clock', 'title' => '[AR-REVIEW]تكاليف متأخرة[/AR-REVIEW]', 'text' => 'تأخر تسجيل التكاليف.'],
+                    ['icon' => 'doc', 'title' => '[AR-REVIEW]مستخلصات يدوية[/AR-REVIEW]', 'text' => 'المستخلصات على Excel.'],
+                    ['icon' => 'briefcase', 'title' => '[AR-REVIEW]عقود الخدمة[/AR-REVIEW]', 'text' => 'متابعة عقود الخدمة يدوياً.'],
+                ]],
+            ['type' => 'cards', 'h2' => '[AR-REVIEW]كيف يحل نظامنا ذلك[/AR-REVIEW]', 'cols' => 3,
+                'items' => [
+                    ['icon' => 'coins', 'title' => '[AR-REVIEW]تكاليف المشاريع والميزانيات[/AR-REVIEW]', 'text' => '[AR-REVIEW]الميزانية مقابل الفعلي لكل مشروع، تُحدَّث مع تسجيل التكاليف.[/AR-REVIEW]'],
+                    ['icon' => 'cart', 'title' => '[AR-REVIEW]المشتريات حسب المشروع[/AR-REVIEW]', 'text' => '[AR-REVIEW]كل عملية شراء مرتبطة بمشروعها.[/AR-REVIEW]'],
+                    ['icon' => 'receipt', 'title' => '[AR-REVIEW]المستخلصات والمحتجزات[/AR-REVIEW]', 'text' => '[AR-REVIEW]إصدار المستخلصات ومتابعة المحتجزات.[/AR-REVIEW] [CONFIRM: progress billing add-on]'],
+                    ['icon' => 'briefcase', 'title' => '[AR-REVIEW]عقود ونداءات الخدمة[/AR-REVIEW]', 'text' => '[AR-REVIEW]إدارة العقود ونداءات الخدمة ومستويات الخدمة.[/AR-REVIEW]'],
+                    ['icon' => 'chart', 'title' => '[AR-REVIEW]تقارير ربحية المشاريع[/AR-REVIEW]', 'text' => '[AR-REVIEW]اعرف ربح كل مشروع أثناء تنفيذه.[/AR-REVIEW]'],
+                ]],
+            ['type' => 'cards', 'h2' => '[AR-REVIEW]إضافة الذكاء الاصطناعي لشركات المقاولات[/AR-REVIEW]', 'cols' => 2,
+                'items' => [
+                    ['icon' => 'spark', 'title' => '[AR-REVIEW]تنبيهات تجاوز التكاليف[/AR-REVIEW]', 'text' => '[AR-REVIEW]تنبيه مبكر عندما يتجه المشروع لتجاوز ميزانيته.[/AR-REVIEW]', 'href' => '/ai/ai-for-sap-business-one/'],
+                ]],
+            ['type' => 'cta_box', 'h2' => 'الفوترة الإلكترونية المرحلة الثانية، جاهزة ضمن النظام',
+                'text' => 'اربط نظامك بمنصة فاتورة وأصدر فواتير إلكترونية متوافقة من اليوم الأول.',
+                'button' => ['تحقق من جاهزيتك لزاتكا ←', '/sap-business-one/zatca-e-invoicing/']],
+            ['type' => 'case_studies'],
+            ['type' => 'faq', 'items' => [
+                ['[AR-REVIEW]هل يمكننا معرفة ربح كل مشروع قبل انتهائه؟[/AR-REVIEW]', '[AR-REVIEW]نعم، تُسجَّل التكاليف والإيرادات على المشروع فور حدوثها، فترى الميزانية مقابل الفعلي في أي وقت.[/AR-REVIEW]'],
+                ['[AR-REVIEW]هل يدعم النظام المستخلصات؟[/AR-REVIEW]', '[AR-REVIEW]نعم، يمكن إدارة المستخلصات والمحتجزات في النظام، مع إضافة عند الحاجة.[/AR-REVIEW]'],
+                ['[AR-REVIEW]هل يدير عقود الخدمة؟[/AR-REVIEW]', '[AR-REVIEW]نعم، يمكنك إدارة عقود الخدمة ونداءاتها وأوقات الاستجابة في النظام نفسه.[/AR-REVIEW]'],
+            ]],
+            ['type' => 'lead_form', 'heading' => '[AR-REVIEW]تحدث مع خبير في قطاعك[/AR-REVIEW]'],
+            ['type' => 'cta_band'],
+        ],
+    ],
+];

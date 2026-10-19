@@ -1,0 +1,27 @@
+# nginx: serve this project at https://dwptech.com/arabia/
+# /path/to/DWP_Website is the project root; only public/ is web-accessible.
+
+# Compression (spec A4 performance targets)
+gzip on;
+gzip_comp_level 6;
+gzip_types text/css application/javascript application/json application/xml image/svg+xml text/plain;
+
+location ^~ /arabia/assets/ {
+    alias /path/to/DWP_Website/public/assets/;
+    expires 1y;
+    types { font/woff2 woff2; video/webm webm; video/mp4 mp4; image/webp webp; }
+    add_header Cache-Control "public, immutable";
+    access_log off;
+}
+
+location ^~ /arabia {
+    client_max_body_size 6m;   # CV uploads (PDF ≤ 5 MB)
+    include fastcgi_params;
+    fastcgi_param SCRIPT_FILENAME /path/to/DWP_Website/public/index.php;
+    fastcgi_param SCRIPT_NAME /arabia/index.php;
+    fastcgi_pass unix:/run/php/php8.3-fpm.sock;
+
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+    add_header X-Frame-Options "SAMEORIGIN" always;
+}
