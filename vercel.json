@@ -7,7 +7,7 @@
   },
   "routes": [
     { "src": "/", "status": 308, "headers": { "Location": "/arabia/" } },
-    { "src": "/arabia/assets/(.*)", "dest": "/public/assets/$1", "headers": { "Cache-Control": "public, max-age=31536000, immutable" } },
+    { "src": "/arabia/assets/(.*)", "dest": "/assets/$1", "headers": { "Cache-Control": "public, max-age=31536000, immutable" } },
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
