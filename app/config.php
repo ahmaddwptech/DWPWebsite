@@ -68,7 +68,7 @@ if (is_file($local)) {
     $config = array_replace_recursive($config, require $local);
 }
 
-foreach (['DB_HOST' => ['db', 'host'], 'DB_NAME' => ['db', 'name'], 'DB_USER' => ['db', 'user'], 'DB_PASS' => ['db', 'pass'], 'APP_ENV' => ['env']] as $var => $path) {
+foreach (['DB_HOST' => ['db', 'host'], 'DB_NAME' => ['db', 'name'], 'DB_USER' => ['db', 'user'], 'DB_PASS' => ['db', 'pass'], 'APP_ENV' => ['env'], 'BASE_URL' => ['base_url']] as $var => $path) {
     $v = getenv($var);
     if ($v === false) continue;
     if (count($path) === 2) $config[$path[0]][$path[1]] = $v; else $config[$path[0]] = $v;
