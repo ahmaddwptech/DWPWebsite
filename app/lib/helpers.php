@@ -58,7 +58,9 @@ function url(string $path = '/', ?string $lang = null, bool $absolute = false): 
 function asset(string $file): string
 {
     $full = ROOT_DIR . '/public/assets/' . ltrim($file, '/');
-    $v = is_file($full) ? substr(md5((string) filemtime($full)), 0, 8) : '';
+    // On Vercel every file has the same mtime, so version by commit instead.
+    $sha = getenv('VERCEL_GIT_COMMIT_SHA');
+    $v = is_file($full) ? substr($sha ?: md5((string) filemtime($full)), 0, 8) : '';
     return rtrim(cfg('base_path'), '/') . '/assets/' . ltrim($file, '/') . ($v ? '?v=' . $v : '');
 }
 
